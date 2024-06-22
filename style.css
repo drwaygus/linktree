@@ -7,7 +7,7 @@ body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
     display: flex;
     justify-content: center;
     z-index: 1;
-    height: 100vh; /* Bu satırı ekleyerek deneyebilirsin, div'e tam ekran yüksekliği verir */
+    height: 10vh; /* Bu satırı ekleyerek deneyebilirsin, div'e tam ekran yüksekliği verir */
 }
 
 #muzik-baslat {
