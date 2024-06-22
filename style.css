@@ -10,22 +10,33 @@
   --delay: 0.3s;
   --starColor : #fff;
 }
-body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
-  filter: blur(10px); /* Bulanıklık efekti ekle */
+body { /* Sayfa yüklendiğinde sitenin geri kalanını bulanıklaştır */
+  filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-#muzik-baslat { /* Butonu şekillendir */
-  padding: 15px 30px; /* Butona iç boşluk ekle */
-  font-size: 20px; /* Yazı boyutunu ayarla */
-  background-color: #4CAF50; /* Arka plan rengini ayarla */
-  color: white;  /* Yazı rengini ayarla */
-  border: none; /* Kenarlığı kaldır */
-  cursor: pointer; /* Fare imlecini pointer yap */
+.container { /* Butonu ortalamak için bir div kullanıyoruz */
+  position: relative; /* Butonu konumlandırmak için */
+  z-index: 1;          /* Butonu bulanık arka planın üzerine çıkarmak için */
 }
 
-.aktif { /* Butona tıklandıktan sonra aktif sınıfı eklenecek ve bulanıklığı kaldıracak */
-  filter: blur(0px); /* Bulanıklık efekti kaldır */
-} 
+#muzik-baslat {
+  padding: 30px 60px;   /* Butonu daha büyük yapmak için iç boşluğu artır */
+  font-size: 30px;      /* Yazı boyutunu büyüt */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.aktif {  /* .aktif sınıfı eklendiğinde bulanıklığı kaldır */
+  filter: blur(0px);
+}
+
 .episode {
   position: relative;
   background-color: transparent;
