@@ -12,7 +12,7 @@ body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
 #muzik-baslat {
   padding: 30px 60px;   /* Butonu daha büyük yapmak için iç boşluğu artır */
   font-size: 60px;
-  position: center; /* Yazı boyutunu büyüt */
+  margin: 0 auto; /* Yazı boyutunu büyüt */
   background-color: #00e1ff;
   color: white;
   border: none;
