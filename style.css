@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 .container {
     /* Diğer CSS Özellikleri */
+    position: relative;
     display: flex;
     justify-content: center;
     z-index: 1;
-    height: 10vh; /* Bu satırı ekleyerek deneyebilirsin, div'e tam ekran yüksekliği verir */
+     /* Bu satırı ekleyerek deneyebilirsin, div'e tam ekran yüksekliği verir */
 }
 
 #muzik-baslat {
