@@ -13,17 +13,18 @@
   top: 20px; /* Üstten 20px uzaklıkta */
   left: 20px; /* Soldan 20px uzaklıkta */
   padding: 10px 15px; /* Buton boyutunu ayarla */
-  /* ...diğer stil özellikleri */font-size: 60px;
-  margin: 0 auto; /* Yazı boyutunu büyüt */
+  /* ...diğer stil özellikleri */
+  font-size: 30px;
+   /* Yazı boyutunu büyüt */
   background-color: #00e1ff;
-  transition: background-color 0.3s ease; /* Bu satırı ekliyoruz! Renk geçişi için. */
+  transition: background-color 0.5s linear; /* Bu satırı ekliyoruz! Renk geçişi için. */
   border-radius: 15px;
   color: white;
   border: none;
   cursor: pointer;
 }
 #muzik-baslat:hover { /*  Fare butonun üstüne geldiğinde */
-  background-color: #ff69b4; /*  Rengi pembeye dönüştür! */
+  background-color: #ffffff; /*  Rengi pembeye dönüştür! */
   /* İstediğin başka renk kodunu da yazabilirsin! */
 }
 :root {
