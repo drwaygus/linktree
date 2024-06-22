@@ -6,6 +6,7 @@ body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
   /* Diğer CSS Özellikleri */
   display: flex;
   justify-content: center;
+  z-index: 1; 
 }
 
 #muzik-baslat {
