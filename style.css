@@ -16,6 +16,7 @@
   /* ...diğer stil özellikleri */font-size: 60px;
   margin: 0 auto; /* Yazı boyutunu büyüt */
   background-color: #00e1ff;
+  border-radius: 15px;
   color: white;
   border: none;
   cursor: pointer;
