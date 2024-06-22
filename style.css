@@ -3,10 +3,11 @@ body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
   filter: blur(10px); /* Bulanıklık efekti ekle */
 }
 .container {
-  /* Diğer CSS Özellikleri */
-  display: flex;
-  justify-content: center;
-  z-index: 1; 
+    /* Diğer CSS Özellikleri */
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    height: 100vh; /* Bu satırı ekleyerek deneyebilirsin, div'e tam ekran yüksekliği verir */
 }
 
 #muzik-baslat {
