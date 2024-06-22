@@ -3,7 +3,7 @@ body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
   filter: blur(10px); /* Bulanıklık efekti ekle */
 }
 .container { /* Butonu ortalamak için bir div kullanıyoruz */
-  position: relative; /* Butonu konumlandırmak için */
+  position: center; /* Butonu konumlandırmak için */
   z-index: 1;          /* Butonu bulanık arka planın üzerine çıkarmak için */
 }
 
