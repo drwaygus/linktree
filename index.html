@@ -19,17 +19,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    div class="container">
+    <button id="muzik-baslat">Siteye Tıkla</button>
+  </div>
+  <audio id="drwaygus-muzik" src="/muzik/drwaygus.mp3"></audio>
 
-<button id="muzik-baslat">Siteye Tıkla</button> 
-<audio id="drwaygus-muzik" src="/muzik/drwaygus.mp3"></audio>
+  <script>
+    document.getElementById('muzik-baslat').addEventListener('click', function() {
+      document.getElementById('drwaygus-muzik').play();
+      document.body.classList.add('aktif'); 
+      this.style.display = 'none';
+    });
+  </script>
 
-<script>
-document.getElementById('muzik-baslat').addEventListener('click', function() {
-document.getElementById('drwaygus-muzik').play();
-document.body.classList.add('aktif'); 
-this.style.display = 'none';  // Butonu gizle
-});
-</script>
     <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
       <div id="stars1"></div>
