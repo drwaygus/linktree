@@ -12,7 +12,7 @@
   position: absolute; /* Butonu .container içinde konumlandırabilmek için */
   top: 20px; /* Üstten 20px uzaklıkta */
   left: 20px; /* Soldan 20px uzaklıkta */
-  padding: 20px 40px; /* Buton boyutunu ayarla */
+  padding: 10px 15px; /* Buton boyutunu ayarla */
   /* ...diğer stil özellikleri */font-size: 60px;
   margin: 0 auto; /* Yazı boyutunu büyüt */
   background-color: #00e1ff;
