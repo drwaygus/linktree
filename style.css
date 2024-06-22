@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
-
-:root {
-  --bgColor: #3f3f3f;
-  --bgColor2: #020202;
-  --BtnBgColor : transparent ;
-  --BtnFontColor : #fff;
-  --accentColor: #fff;
-  --font: "Karla", sans-serif;
-  --delay: 0.3s;
-  --starColor : #fff;
-}
 body { /* Sayfa yüklendiğinde sitenin geri kalanını bulanıklaştır */
   filter: blur(10px);
   display: flex;
@@ -35,6 +24,16 @@ body { /* Sayfa yüklendiğinde sitenin geri kalanını bulanıklaştır */
 
 .aktif {  /* .aktif sınıfı eklendiğinde bulanıklığı kaldır */
   filter: blur(0px);
+}
+:root {
+  --bgColor: #3f3f3f;
+  --bgColor2: #020202;
+  --BtnBgColor : transparent ;
+  --BtnFontColor : #fff;
+  --accentColor: #fff;
+  --font: "Karla", sans-serif;
+  --delay: 0.3s;
+  --starColor : #fff;
 }
 
 .episode {
