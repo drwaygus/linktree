@@ -19,15 +19,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button id="muzik-baslat">Müziği Aç</button>
+  <button id="muzik-baslat">Siteye Tıkla</button>
 
-  <audio id="drwaygus-muzik" src="/muzik/drwaygus.mp3"></audio>
+<audio id="drwaygus-muzik" src="/muzik/drwaygus.mp3"></audio>
 
-  <script>
-    document.getElementById('muzik-baslat').addEventListener('click', function() {
-      document.getElementById('drwaygus-muzik').play();
-    });
-  </script>
+<script>
+document.getElementById('muzik-baslat').addEventListener('click', function() {
+document.getElementById('drwaygus-muzik').play();
+  document.body.classList.add('aktif');  // Butona tıklayınca body'e "aktif" sınıfı ekle
+});
+</script>
     <!-- Parallax Pixel Background Animation -->
     <section class="animated-background">
       <div id="stars1"></div>
