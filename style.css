@@ -16,7 +16,7 @@
   /* ...diğer stil özellikleri */
   font-size: 30px;
    /* Yazı boyutunu büyüt */
-  background-color: #00e1ff;
+  background-color: #010117;
   transition: background-color 0.5s linear; /* Bu satırı ekliyoruz! Renk geçişi için. */
   border-radius: 15px;
   color: white;
