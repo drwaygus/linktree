@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
-body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
-  filter: blur(10px); /* Bulanıklık efekti ekle */
-}
 .container {
     /* Diğer CSS Özellikleri */
     display: flex;
@@ -20,9 +17,6 @@ body { /* Sayfa yüklendiğinde tüm sayfayı bulanıklaştır */
   cursor: pointer;
 }
 
-.aktif {  /* .aktif sınıfı eklendiğinde bulanıklığı kaldır */
-  filter: blur(0px);
-}
 :root {
   --bgColor: #3f3f3f;
   --bgColor2: #020202;
