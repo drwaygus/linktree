@@ -20,12 +20,14 @@
   </head>
   <body>
 
+<button id="muzik-baslat">Siteye Tıkla</button> 
 <audio id="drwaygus-muzik" src="/muzik/drwaygus.mp3"></audio>
 
 <script>
 document.getElementById('muzik-baslat').addEventListener('click', function() {
 document.getElementById('drwaygus-muzik').play();
-  document.body.classList.add('aktif');  // Butona tıklayınca body'e "aktif" sınıfı ekle
+document.body.classList.add('aktif'); 
+this.style.display = 'none';  // Butonu gizle
 });
 </script>
     <!-- Parallax Pixel Background Animation -->
@@ -126,5 +128,4 @@ document.getElementById('drwaygus-muzik').play();
     <a id="tryThemeButton" href="https://discord.com/users/988529498662264852" target="_blank">İletişim</a>
 
   </body>
-  <button id="muzik-baslat">Siteyi Aç</button> 
 </html>
